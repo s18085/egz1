@@ -8,5 +8,9 @@
   <ItemGroup>
     <Folder Include="Services\" />
     <Folder Include="Controllers\" />
+    <Folder Include="Model %28copy%29\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Data.SQLite" Version="1.0.113.7" />
   </ItemGroup>
 </Project>
