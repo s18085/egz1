@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Data.SQLite;
-using Microsoft.Data.Sqlite;
 using s18085_egz1.Controllers;
 using s18085_egz1.Model;
 

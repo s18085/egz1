@@ -31,7 +31,7 @@ namespace s18085_egz1.Controllers
         public IActionResult DeletePatient (string id)
         {
             var deleted = _dbService.DeletePatient(id);
-            if (!deleted) return NotFound("Patiante was now found in db");
+            if (!deleted) return NotFound("Patiante was not found in db");
             return Ok();
         }
     }
